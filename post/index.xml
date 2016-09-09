@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on ashcoding&#39;s logs</title>
-    <link>https://ashcoding.com/post/</link>
+    <link>https://ashcoding.github.io/ashcoding-website/post/</link>
     <description>Recent content in Posts on ashcoding&#39;s logs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 09 Sep 2016 23:17:52 +0800</lastBuildDate>
-    <atom:link href="https://ashcoding.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ashcoding.github.io/ashcoding-website/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>helloworld</title>
-      <link>https://ashcoding.com/post/helloworld/</link>
+      <link>https://ashcoding.github.io/ashcoding-website/post/helloworld/</link>
       <pubDate>Fri, 09 Sep 2016 23:17:52 +0800</pubDate>
       
-      <guid>https://ashcoding.com/post/helloworld/</guid>
+      <guid>https://ashcoding.github.io/ashcoding-website/post/helloworld/</guid>
       <description>
 
 &lt;p&gt;Testing this out.&lt;/p&gt;
