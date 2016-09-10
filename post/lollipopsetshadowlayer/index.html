@@ -7,7 +7,7 @@
 		<meta name="author" content="ashcoding">
 		<meta name="description" content="A place to put my thoughts">
 		<meta name="generator" content="Hugo 0.16" />
-		<title>Hello, World &middot; ashcoding&#39;s logs</title>
+		<title>Android: Lollipop (5.0) setShadowLayer() &middot; ashcoding&#39;s logs</title>
 		<link rel="shortcut icon" href="http://ashcoding.com/images/favicon.ico">
 		<link rel="stylesheet" href="http://ashcoding.com/css/style.css">
 		<link rel="stylesheet" href="http://ashcoding.com/css/highlight.css">
@@ -41,20 +41,29 @@
         <section id="wrapper">
             <article class="post">
                 <header>
-                    <h1>Hello, World</h1>
+                    <h1>Android: Lollipop (5.0) setShadowLayer()</h1>
                     <h2 class="headline">
-                    September 9, 2016 
+                    September 10, 2016 
                     <br>
                     
                     </h2>
                 </header>
                 <section id="post-body">
-                    <p>So&hellip; This is my first post here. I&rsquo;ve finally managed to set a blog up.</p>
+                    <p>Hi all. I’ve found something interesting with regards to using a TextView and its <a href="http://developer.android.com/reference/android/widget/TextView.html#setShadowLayer(float, float, float, int)">setShadowLayer()</a> method.</p>
 
-<p>I&rsquo;m using <a href="https://gohugo.io/">Hugo</a>, a static website engine to generate this.
-It&rsquo;s actually pretty cool.</p>
+<p>On Android &lt; 5.0, if you specify setShadowLayer (0, 10, 10, Color.BLACK), you would get a nice shadow that looks exactly like your text but offset by 10 on the x and y axis.</p>
 
-<p>Well, that&rsquo;s all I have to say for now. See you later!</p>
+<p>On Android 5.0 (Lollipop), it seems that this same code will produce nothing. Zip. Nada. Zilch. Zero. To make it work on this, you need to specify a non zero blur radius for the input. setShadowLayer (1, 10, 10, Color.BLACK) works just fine.</p>
+
+<p>So there you go, another weird behavior of Android. I’ll look at the source code when I have time to figure out why this seems to be the case. If I got it wrong, let me know! Happy to know why.</p>
+
+<p>Found a related link: <a href="https://code.google.com/p/android/issues/detail?id=7531">https://code.google.com/p/android/issues/detail?id=7531</a></p>
+
+<hr />
+
+<p>Note: This <a href="https://ashcoding.wordpress.com/2015/06/11/android-lollipop-5-0-setshadowlayer-behavior-for-textview/">article</a>
+was original written by me in my Wordpress blog. I&rsquo;m currently trying to move
+all articles here.</p>
 
                 </section>
             </article>
@@ -67,7 +76,7 @@ It&rsquo;s actually pretty cool.</p>
                         </div>
                     </a>
                 <section id="sharing">
-                    <a class="twitter" href="https://twitter.com/intent/tweet?text=http%3a%2f%2fashcoding.com%2fpost%2fhelloworld%2f - Hello%2c%20World by @ashcoding"><span class="icon-twitter"> Tweet</span></a>
+                    <a class="twitter" href="https://twitter.com/intent/tweet?text=http%3a%2f%2fashcoding.com%2fpost%2flollipopsetshadowlayer%2f - Android%3a%20Lollipop%20%285.0%29%20setShadowLayer%28%29 by @ashcoding"><span class="icon-twitter"> Tweet</span></a>
 
 <a class="facebook" href="#" onclick="
     window.open(
@@ -83,9 +92,9 @@ It&rsquo;s actually pretty cool.</p>
             <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = 'ashcoding';
-    var disqus_identifier = 'http:\/\/ashcoding.com\/post\/helloworld\/';
-    var disqus_title = 'Hello, World';
-    var disqus_url = 'http:\/\/ashcoding.com\/post\/helloworld\/';
+    var disqus_identifier = 'http:\/\/ashcoding.com\/post\/lollipopsetshadowlayer\/';
+    var disqus_title = 'Android: Lollipop (5.0) setShadowLayer()';
+    var disqus_url = 'http:\/\/ashcoding.com\/post\/lollipopsetshadowlayer\/';
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

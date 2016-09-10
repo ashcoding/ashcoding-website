@@ -6,8 +6,61 @@
     <description>Recent content on ashcoding&#39;s logs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Sep 2016 10:54:50 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 10 Sep 2016 11:27:45 +0800</lastBuildDate>
     <atom:link href="http://ashcoding.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Getting Maven 3.1.1 on a Mac</title>
+      <link>http://ashcoding.com/post/maven31onmac/</link>
+      <pubDate>Sat, 10 Sep 2016 11:27:45 +0800</pubDate>
+      
+      <guid>http://ashcoding.com/post/maven31onmac/</guid>
+      <description>&lt;p&gt;There’s a whole bunch of different versions available. Easiest way is to use brew using this formula &lt;a href=&#34;https://github.com/Homebrew/homebrew-versions/blob/master/maven31.rb&#34;&gt;https://github.com/Homebrew/homebrew-versions/blob/master/maven31.rb&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The command to run on terminal would be&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;brew install https://raw.githubusercontent.com/Homebrew/homebrew-versions/master/maven31.rb
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And tada! You have Maven 3.1.1 installed!&lt;/p&gt;
+
+&lt;p&gt;Related article:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://stackoverflow.com/questions/8826881/maven-install-on-mac-os-x&#34;&gt;http://stackoverflow.com/questions/8826881/maven-install-on-mac-os-x&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Note: This &lt;a href=&#34;https://ashcoding.wordpress.com/2016/01/19/getting-maven-3-1-1-on-a-mac/&#34;&gt;article&lt;/a&gt;
+was original written by me in my Wordpress blog. I&amp;rsquo;m currently trying to move
+all articles here.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Android: Lollipop (5.0) setShadowLayer()</title>
+      <link>http://ashcoding.com/post/lollipopsetshadowlayer/</link>
+      <pubDate>Sat, 10 Sep 2016 11:24:56 +0800</pubDate>
+      
+      <guid>http://ashcoding.com/post/lollipopsetshadowlayer/</guid>
+      <description>&lt;p&gt;Hi all. I’ve found something interesting with regards to using a TextView and its &lt;a href=&#34;http://developer.android.com/reference/android/widget/TextView.html#setShadowLayer(float, float, float, int)&#34;&gt;setShadowLayer()&lt;/a&gt; method.&lt;/p&gt;
+
+&lt;p&gt;On Android &amp;lt; 5.0, if you specify setShadowLayer (0, 10, 10, Color.BLACK), you would get a nice shadow that looks exactly like your text but offset by 10 on the x and y axis.&lt;/p&gt;
+
+&lt;p&gt;On Android 5.0 (Lollipop), it seems that this same code will produce nothing. Zip. Nada. Zilch. Zero. To make it work on this, you need to specify a non zero blur radius for the input. setShadowLayer (1, 10, 10, Color.BLACK) works just fine.&lt;/p&gt;
+
+&lt;p&gt;So there you go, another weird behavior of Android. I’ll look at the source code when I have time to figure out why this seems to be the case. If I got it wrong, let me know! Happy to know why.&lt;/p&gt;
+
+&lt;p&gt;Found a related link: &lt;a href=&#34;https://code.google.com/p/android/issues/detail?id=7531&#34;&gt;https://code.google.com/p/android/issues/detail?id=7531&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Note: This &lt;a href=&#34;https://ashcoding.wordpress.com/2015/06/11/android-lollipop-5-0-setshadowlayer-behavior-for-textview/&#34;&gt;article&lt;/a&gt;
+was original written by me in my Wordpress blog. I&amp;rsquo;m currently trying to move
+all articles here.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Android: guessContentTypeFromStream()</title>
@@ -27,6 +80,8 @@
 
 &lt;p&gt;Learned this Android Quirk from
 &lt;a href=&#34;https://github.com/appcelerator/titanium_mobile/pull/6216&#34;&gt;https://github.com/appcelerator/titanium_mobile/pull/6216&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;p&gt;Note: This &lt;a href=&#34;https://ashcoding.wordpress.com/2015/05/26/android-urlconnection-guesscontenttypefromstream/&#34;&gt;article&lt;/a&gt;
 was original written by me in my Wordpress blog. I&amp;rsquo;m currently trying to move
