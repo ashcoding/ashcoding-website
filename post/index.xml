@@ -6,8 +6,23 @@
     <description>Recent content in Posts on ashcoding&#39;s logs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Sep 2016 11:27:45 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 10 Sep 2016 11:39:29 +0800</lastBuildDate>
     <atom:link href="http://ashcoding.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Oh shit, git!</title>
+      <link>http://ashcoding.com/post/ohshitgit/</link>
+      <pubDate>Sat, 10 Sep 2016 11:39:29 +0800</pubDate>
+      
+      <guid>http://ashcoding.com/post/ohshitgit/</guid>
+      <description>&lt;p&gt;While reading my twitter feed, I came across this interesting tweet.&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;I made a website to explain how to get yourself out of your git messes in plain english &lt;a href=&#34;https://t.co/6Rc6YTPM3o&#34;&gt;https://t.co/6Rc6YTPM3o&lt;/a&gt;&lt;/p&gt;&amp;mdash; Katie Sylor-Miller (@ksylor) &lt;a href=&#34;https://twitter.com/ksylor/status/774053678575607808&#34;&gt;September 9, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;Yes! It&amp;rsquo;s an interesting site called &lt;a href=&#34;http://ohshitgit.com/&#34;&gt;Oh shit, git!&lt;/a&gt; that explains what you need to do if you are stuck in a certain situation while using &lt;code&gt;git&lt;/code&gt;. I think this is brilliant!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Getting Maven 3.1.1 on a Mac</title>
