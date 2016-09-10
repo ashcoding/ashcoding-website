@@ -6,8 +6,19 @@
     <description>Recent content on ashcoding&#39;s logs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Sep 2016 23:17:52 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 10 Sep 2016 10:54:50 +0800</lastBuildDate>
     <atom:link href="http://ashcoding.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Android: guessContentTypeFromStream()</title>
+      <link>http://ashcoding.com/post/guesscontenttypefromstream/</link>
+      <pubDate>Sat, 10 Sep 2016 10:54:50 +0800</pubDate>
+      
+      <guid>http://ashcoding.com/post/guesscontenttypefromstream/</guid>
+      <description>&lt;p&gt;Note: This article was original written by me in my Wordpress blog. I&amp;rsquo;m
+currently try&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Hello, World</title>
