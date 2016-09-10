@@ -49,8 +49,22 @@
                     </h2>
                 </header>
                 <section id="post-body">
-                    <p>Note: This article was original written by me in my Wordpress blog. I&rsquo;m
-currently try</p>
+                    <p>If you ever used Android’s implementation of <code>URLConnection.guessContentTypeFromStream()</code>, guess what? Android’s implementation of it is a VERY limited version of the Java version. Take a look at android’s code at like 695 onward <a href="https://android.googlesource.com/platform/libcore/+/master/luni/src/main/java/java/net/URLConnection.java">here</a>.</p>
+
+<p>It only returns 4 different strings from its guess. They are, <code>application/zip</code>,<code>image/gif</code>, <code>text/html</code> and <code>application/xml</code>. If you have a PNG image, it won’t guess it!</p>
+
+<p>So how do you improve the guessing in Android? Well, you got to improve the <code>guessContentTypeFromStream()</code> in Android by using the Java’s implementation. You can check it out <a href="http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/6-b14/java/net/URLConnection.java#URLConnection.guessContentTypeFromStream%28java.io.InputStream%29">here</a>.</p>
+
+<p>From there, you can improve it with the additional guesses that was implemented in Java.</p>
+
+<p>Go forth and create this method if you need it in Android.</p>
+
+<p>Learned this Android Quirk from
+<a href="https://github.com/appcelerator/titanium_mobile/pull/6216">https://github.com/appcelerator/titanium_mobile/pull/6216</a></p>
+
+<p>Note: This <a href="https://ashcoding.wordpress.com/2015/05/26/android-urlconnection-guesscontenttypefromstream/">article</a>
+was original written by me in my Wordpress blog. I&rsquo;m currently trying to move
+all articles here.</p>
 
                 </section>
             </article>

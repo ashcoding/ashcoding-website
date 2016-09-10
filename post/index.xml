@@ -15,8 +15,22 @@
       <pubDate>Sat, 10 Sep 2016 10:54:50 +0800</pubDate>
       
       <guid>http://ashcoding.com/post/guesscontenttypefromstream/</guid>
-      <description>&lt;p&gt;Note: This article was original written by me in my Wordpress blog. I&amp;rsquo;m
-currently try&lt;/p&gt;
+      <description>&lt;p&gt;If you ever used Android’s implementation of &lt;code&gt;URLConnection.guessContentTypeFromStream()&lt;/code&gt;, guess what? Android’s implementation of it is a VERY limited version of the Java version. Take a look at android’s code at like 695 onward &lt;a href=&#34;https://android.googlesource.com/platform/libcore/+/master/luni/src/main/java/java/net/URLConnection.java&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It only returns 4 different strings from its guess. They are, &lt;code&gt;application/zip&lt;/code&gt;,&lt;code&gt;image/gif&lt;/code&gt;, &lt;code&gt;text/html&lt;/code&gt; and &lt;code&gt;application/xml&lt;/code&gt;. If you have a PNG image, it won’t guess it!&lt;/p&gt;
+
+&lt;p&gt;So how do you improve the guessing in Android? Well, you got to improve the &lt;code&gt;guessContentTypeFromStream()&lt;/code&gt; in Android by using the Java’s implementation. You can check it out &lt;a href=&#34;http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/6-b14/java/net/URLConnection.java#URLConnection.guessContentTypeFromStream%28java.io.InputStream%29&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;From there, you can improve it with the additional guesses that was implemented in Java.&lt;/p&gt;
+
+&lt;p&gt;Go forth and create this method if you need it in Android.&lt;/p&gt;
+
+&lt;p&gt;Learned this Android Quirk from
+&lt;a href=&#34;https://github.com/appcelerator/titanium_mobile/pull/6216&#34;&gt;https://github.com/appcelerator/titanium_mobile/pull/6216&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Note: This &lt;a href=&#34;https://ashcoding.wordpress.com/2015/05/26/android-urlconnection-guesscontenttypefromstream/&#34;&gt;article&lt;/a&gt;
+was original written by me in my Wordpress blog. I&amp;rsquo;m currently trying to move
+all articles here.&lt;/p&gt;
 </description>
     </item>
     
