@@ -10,30 +10,16 @@
     <atom:link href="http://ashcoding.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>helloworld</title>
+      <title>Hello, World</title>
       <link>http://ashcoding.com/post/helloworld/</link>
       <pubDate>Fri, 09 Sep 2016 23:17:52 +0800</pubDate>
       
       <guid>http://ashcoding.com/post/helloworld/</guid>
-      <description>
+      <description>&lt;p&gt;So&amp;hellip; This is my first post here. I&amp;rsquo;ve finally managed to set a blog up.&lt;/p&gt;
 
-&lt;p&gt;Testing this out.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m using &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;, a static website engine to generate this. It&amp;rsquo;s actually pretty cool.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;var test = 0;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Well look at that.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;One&lt;/li&gt;
-&lt;li&gt;Two&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;more-things&#34;&gt;More things&lt;/h2&gt;
-
-&lt;h3 id=&#34;ok&#34;&gt;Ok&lt;/h3&gt;
-
-&lt;p&gt;This is the end.&lt;/p&gt;
+&lt;p&gt;Well, that&amp;rsquo;s all I have to say for now. See you later!&lt;/p&gt;
 </description>
     </item>
     
@@ -43,17 +29,7 @@
       <pubDate>Sat, 20 Jun 2015 14:02:37 +0200</pubDate>
       
       <guid>http://ashcoding.com/about/</guid>
-      <description>
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa ullam earum dolorum! Sed, perspiciatis.&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;lorem-ipsum-dolor&#34;&gt;Lorem ipsum dolor.&lt;/h3&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea dicta corporis ad inventore itaque impedit dolor atque amet exercitationem! Veniam qui voluptas maiores vel laudantium necessitatibus, velit ducimus! Iste hic facere, accusamus fugiat enim facilis.&lt;/p&gt;
+      <description>&lt;p&gt;Just another Software Engineer who likes coding, experimenting and documenting the results.&lt;/p&gt;
 </description>
     </item>
     
