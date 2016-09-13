@@ -49,7 +49,9 @@
                     </h2>
                 </header>
                 <section id="post-body">
-                    <p>So here I was, trying to run Xcode 8 GM Seed to try out the newest Xcode when suddenly this popup appeared and said &lsquo;Verifying Xcode&rsquo; with a progress bar. The progress bar was moving super slow&hellip; Like a snail! Might be even slower than that actually.</p>
+                    
+
+<p>So here I was, trying to run Xcode 8 GM Seed to try out the newest Xcode when suddenly this popup appeared and said &lsquo;Verifying Xcode&rsquo; with a progress bar. The progress bar was moving super slow&hellip; Like a snail! Might be even slower than that actually.</p>
 
 <p>I was in a rush and needed to skip that verification portion. I know the Xcode I downloaded was good. A lil googling and <em>poof!</em>, I found my answer from this <a href="http://stackoverflow.com/a/26476988">stackoverflow article</a> written by user <a href="http://stackoverflow.com/users/117259/jakegould">JakeGould</a>.</p>
 
@@ -59,6 +61,16 @@
 <p>All you need is to replace that last <code>Xcode.app</code> part with the path of the application you want. This will allow you to skip the verification process. Tada! Magic!</p>
 
 <p>Word of caution, do not do this for every application. Only do it for something that you are sure does not need verification and only if you are in a rush.</p>
+
+<hr />
+
+<h5 id="extra-info">Extra Info</h5>
+
+<ul>
+<li><a href="https://developer.apple.com/legacy/library/documentation/Darwin/Reference/ManPages/man1/xattr.1.html">ManPage for <code>xattr</code></a></li>
+<li><a href="https://developer.apple.com/library/mac/releasenotes/Carbon/RN-LaunchServices/index.html">File quarantine info</a></li>
+<li><a href="http://apple.stackexchange.com/a/104875">Additional StackExchange</a></li>
+</ul>
 
                 </section>
             </article>

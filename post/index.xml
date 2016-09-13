@@ -15,7 +15,9 @@
       <pubDate>Tue, 13 Sep 2016 20:25:49 +0800</pubDate>
       
       <guid>http://ashcoding.com/post/verifyingonmac/</guid>
-      <description>&lt;p&gt;So here I was, trying to run Xcode 8 GM Seed to try out the newest Xcode when suddenly this popup appeared and said &amp;lsquo;Verifying Xcode&amp;rsquo; with a progress bar. The progress bar was moving super slow&amp;hellip; Like a snail! Might be even slower than that actually.&lt;/p&gt;
+      <description>
+
+&lt;p&gt;So here I was, trying to run Xcode 8 GM Seed to try out the newest Xcode when suddenly this popup appeared and said &amp;lsquo;Verifying Xcode&amp;rsquo; with a progress bar. The progress bar was moving super slow&amp;hellip; Like a snail! Might be even slower than that actually.&lt;/p&gt;
 
 &lt;p&gt;I was in a rush and needed to skip that verification portion. I know the Xcode I downloaded was good. A lil googling and &lt;em&gt;poof!&lt;/em&gt;, I found my answer from this &lt;a href=&#34;http://stackoverflow.com/a/26476988&#34;&gt;stackoverflow article&lt;/a&gt; written by user &lt;a href=&#34;http://stackoverflow.com/users/117259/jakegould&#34;&gt;JakeGould&lt;/a&gt;.&lt;/p&gt;
 
@@ -25,6 +27,16 @@
 &lt;p&gt;All you need is to replace that last &lt;code&gt;Xcode.app&lt;/code&gt; part with the path of the application you want. This will allow you to skip the verification process. Tada! Magic!&lt;/p&gt;
 
 &lt;p&gt;Word of caution, do not do this for every application. Only do it for something that you are sure does not need verification and only if you are in a rush.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&#34;extra-info&#34;&gt;Extra Info&lt;/h5&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.apple.com/legacy/library/documentation/Darwin/Reference/ManPages/man1/xattr.1.html&#34;&gt;ManPage for &lt;code&gt;xattr&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.apple.com/library/mac/releasenotes/Carbon/RN-LaunchServices/index.html&#34;&gt;File quarantine info&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://apple.stackexchange.com/a/104875&#34;&gt;Additional StackExchange&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
