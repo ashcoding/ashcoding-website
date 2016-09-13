@@ -7,7 +7,7 @@
 		<meta name="author" content="ashcoding">
 		<meta name="description" content="A place to put my thoughts">
 		<meta name="generator" content="Hugo 0.16" />
-		<title>Getting Maven 3.1.1 on a Mac &middot; ashcoding&#39;s logs</title>
+		<title>Verifying Application on Mac &middot; ashcoding&#39;s logs</title>
 		<link rel="shortcut icon" href="http://ashcoding.com/images/favicon.ico">
 		<link rel="stylesheet" href="http://ashcoding.com/css/style.css">
 		<link rel="stylesheet" href="http://ashcoding.com/css/highlight.css">
@@ -41,34 +41,24 @@
         <section id="wrapper">
             <article class="post">
                 <header>
-                    <h1>Getting Maven 3.1.1 on a Mac</h1>
+                    <h1>Verifying Application on Mac</h1>
                     <h2 class="headline">
-                    September 10, 2016 
+                    September 13, 2016 
                     <br>
                     
                     </h2>
                 </header>
                 <section id="post-body">
-                    <p>There’s a whole bunch of different versions available. Easiest way is to use brew using this formula <a href="https://github.com/Homebrew/homebrew-versions/blob/master/maven31.rb">https://github.com/Homebrew/homebrew-versions/blob/master/maven31.rb</a></p>
+                    <p>So here I was, trying to run Xcode 8 GM Seed to try out the newest Xcode when suddenly this popup appeared and said &lsquo;Verifying Xcode&rsquo; with a progress bar. The progress bar was moving super slow&hellip; Like a snail! Might be even slower than that actually.</p>
 
-<p>The command to run on terminal would be</p>
+<p>I was in a rush and needed to skip that verification portion. I know the Xcode I downloaded was good. A lil googling and <em>poof!</em>, I found my answer from this <a href="http://stackoverflow.com/a/26476988">stackoverflow article</a> written by user <a href="http://stackoverflow.com/users/117259/jakegould">JakeGould</a>.</p>
 
-<pre><code class="language-bash">brew install https://raw.githubusercontent.com/Homebrew/homebrew-versions/master/maven31.rb
+<pre><code class="language-bash">xattr -d com.apple.quarantine Xcode.app
 </code></pre>
 
-<p>And tada! You have Maven 3.1.1 installed!</p>
+<p>All you need is to replace that last <code>Xcode.app</code> part with the path of the application you want. This will allow you to skip the verification process. Tada! Magic!</p>
 
-<p>Related article:</p>
-
-<ul>
-<li><a href="http://stackoverflow.com/questions/8826881/maven-install-on-mac-os-x">http://stackoverflow.com/questions/8826881/maven-install-on-mac-os-x</a></li>
-</ul>
-
-<hr />
-
-<p>Note: This <a href="https://ashcoding.wordpress.com/2016/01/19/getting-maven-3-1-1-on-a-mac/">article</a>
-was original written by me in my Wordpress blog. I&rsquo;m currently trying to move
-all articles here.</p>
+<p>Word of caution, do not do this for every application. Only do it for something that you are sure does not need verification and only if you are in a rush.</p>
 
                 </section>
             </article>
@@ -81,7 +71,7 @@ all articles here.</p>
                         </div>
                     </a>
                 <section id="sharing">
-                    <a class="twitter" href="https://twitter.com/intent/tweet?text=http%3a%2f%2fashcoding.com%2fpost%2fmaven31onmac%2f - Getting%20Maven%203.1.1%20on%20a%20Mac by @ashcoding"><span class="icon-twitter"> Tweet</span></a>
+                    <a class="twitter" href="https://twitter.com/intent/tweet?text=http%3a%2f%2fashcoding.com%2fpost%2fverifyingonmac%2f - Verifying%20Application%20on%20Mac by @ashcoding"><span class="icon-twitter"> Tweet</span></a>
 
 <a class="facebook" href="#" onclick="
     window.open(
@@ -97,9 +87,9 @@ all articles here.</p>
             <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = 'ashcoding';
-    var disqus_identifier = 'http:\/\/ashcoding.com\/post\/maven31onmac\/';
-    var disqus_title = 'Getting Maven 3.1.1 on a Mac';
-    var disqus_url = 'http:\/\/ashcoding.com\/post\/maven31onmac\/';
+    var disqus_identifier = 'http:\/\/ashcoding.com\/post\/verifyingonmac\/';
+    var disqus_title = 'Verifying Application on Mac';
+    var disqus_url = 'http:\/\/ashcoding.com\/post\/verifyingonmac\/';
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
