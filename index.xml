@@ -6,8 +6,30 @@
     <description>Recent content on ashcoding&#39;s logs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Sep 2016 20:25:49 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 24 Oct 2016 18:50:26 +0800</lastBuildDate>
     <atom:link href="http://ashcoding.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Removing Developer options</title>
+      <link>http://ashcoding.com/post/24102016-developer-options/</link>
+      <pubDate>Mon, 24 Oct 2016 18:50:26 +0800</pubDate>
+      
+      <guid>http://ashcoding.com/post/24102016-developer-options/</guid>
+      <description>&lt;p&gt;Let&amp;rsquo;s say you are developing or debuging on an Android phone that you don&amp;rsquo;t own.
+After messing around with &lt;code&gt;Developer options&lt;/code&gt;, you&amp;rsquo;ll want to remove that from
+the &lt;code&gt;Settings&lt;/code&gt; in Android. But how?&lt;/p&gt;
+
+&lt;p&gt;Well, seems like the solution is to &lt;code&gt;Clear data&lt;/code&gt; from the Settings.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s how:
+1. Go to &lt;code&gt;Settings &amp;gt; Apps &amp;gt; Settings&lt;/code&gt;
+2. Press &lt;code&gt;Clear data&lt;/code&gt;
+3. Done!&lt;/p&gt;
+
+&lt;p&gt;Related link:
+- &lt;a href=&#34;http://www.droidviews.com/how-to-hide-developer-options-on-android-devices/&#34;&gt;http://www.droidviews.com/how-to-hide-developer-options-on-android-devices/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Skipping Verifying Application on Mac</title>
