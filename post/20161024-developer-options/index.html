@@ -7,7 +7,7 @@
 		<meta name="author" content="ashcoding">
 		<meta name="description" content="A place to put my thoughts">
 		<meta name="generator" content="Hugo 0.16" />
-		<title>Android: guessContentTypeFromStream() &middot; ashcoding&#39;s logs</title>
+		<title>Removing Developer options &middot; ashcoding&#39;s logs</title>
 		<link rel="shortcut icon" href="http://ashcoding.com/images/favicon.ico">
 		<link rel="stylesheet" href="http://ashcoding.com/css/style.css">
 		<link rel="stylesheet" href="http://ashcoding.com/css/highlight.css">
@@ -41,32 +41,33 @@
         <section id="wrapper">
             <article class="post">
                 <header>
-                    <h1>Android: guessContentTypeFromStream()</h1>
+                    <h1>Removing Developer options</h1>
                     <h2 class="headline">
-                    September 10, 2016 
+                    October 24, 2016 
                     <br>
                     
                     </h2>
                 </header>
                 <section id="post-body">
-                    <p>If you ever used Android’s implementation of <code>URLConnection.guessContentTypeFromStream()</code>, guess what? Android’s implementation of it is a VERY limited version of the Java version. Take a look at android’s code at like 695 onward <a href="https://android.googlesource.com/platform/libcore/+/master/luni/src/main/java/java/net/URLConnection.java">here</a>.</p>
+                    <p>Let&rsquo;s say you are developing or debuging on an Android phone that you don&rsquo;t own.
+After messing around with <code>Developer options</code>, you&rsquo;ll want to remove that from
+the <code>Settings</code> in Android. But how?</p>
 
-<p>It only returns 4 different strings from its guess. They are, <code>application/zip</code>,<code>image/gif</code>, <code>text/html</code> and <code>application/xml</code>. If you have a PNG image, it won’t guess it!</p>
+<p>Well, seems like the solution is to <code>Clear data</code> from the Settings.</p>
 
-<p>So how do you improve the guessing in Android? Well, you got to improve the <code>guessContentTypeFromStream()</code> in Android by using the Java’s implementation. You can check it out <a href="http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/6-b14/java/net/URLConnection.java#URLConnection.guessContentTypeFromStream%28java.io.InputStream%29">here</a>.</p>
+<p>Here&rsquo;s how:</p>
 
-<p>From there, you can improve it with the additional guesses that was implemented in Java.</p>
+<ol>
+<li>Go to <code>Settings &gt; Apps &gt; Settings</code></li>
+<li>Press <code>Clear data</code></li>
+<li>Done!</li>
+</ol>
 
-<p>Go forth and create this method if you need it in Android.</p>
+<p>Related link:</p>
 
-<p>Learned this Android Quirk from
-<a href="https://github.com/appcelerator/titanium_mobile/pull/6216">https://github.com/appcelerator/titanium_mobile/pull/6216</a></p>
-
-<hr />
-
-<p>Note: This <a href="https://ashcoding.wordpress.com/2015/05/26/android-urlconnection-guesscontenttypefromstream/">article</a>
-was original written by me in my Wordpress blog. I&rsquo;m currently trying to move
-all articles here.</p>
+<ul>
+<li><a href="http://www.droidviews.com/how-to-hide-developer-options-on-android-devices/">http://www.droidviews.com/how-to-hide-developer-options-on-android-devices/</a></li>
+</ul>
 
                 </section>
             </article>
@@ -79,7 +80,7 @@ all articles here.</p>
                         </div>
                     </a>
                 <section id="sharing">
-                    <a class="twitter" href="https://twitter.com/intent/tweet?text=http%3a%2f%2fashcoding.com%2fpost%2fguesscontenttypefromstream%2f - Android%3a%20guessContentTypeFromStream%28%29 by @ashcoding"><span class="icon-twitter"> Tweet</span></a>
+                    <a class="twitter" href="https://twitter.com/intent/tweet?text=http%3a%2f%2fashcoding.com%2fpost%2f20161024-developer-options%2f - Removing%20Developer%20options by @ashcoding"><span class="icon-twitter"> Tweet</span></a>
 
 <a class="facebook" href="#" onclick="
     window.open(
@@ -95,9 +96,9 @@ all articles here.</p>
             <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = 'ashcoding';
-    var disqus_identifier = 'http:\/\/ashcoding.com\/post\/guesscontenttypefromstream\/';
-    var disqus_title = 'Android: guessContentTypeFromStream()';
-    var disqus_url = 'http:\/\/ashcoding.com\/post\/guesscontenttypefromstream\/';
+    var disqus_identifier = 'http:\/\/ashcoding.com\/post\/20161024-developer-options\/';
+    var disqus_title = 'Removing Developer options';
+    var disqus_url = 'http:\/\/ashcoding.com\/post\/20161024-developer-options\/';
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

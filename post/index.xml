@@ -11,10 +11,10 @@
     
     <item>
       <title>Removing Developer options</title>
-      <link>http://ashcoding.com/post/24102016-developer-options/</link>
+      <link>http://ashcoding.com/post/20161024-developer-options/</link>
       <pubDate>Mon, 24 Oct 2016 18:50:26 +0800</pubDate>
       
-      <guid>http://ashcoding.com/post/24102016-developer-options/</guid>
+      <guid>http://ashcoding.com/post/20161024-developer-options/</guid>
       <description>&lt;p&gt;Let&amp;rsquo;s say you are developing or debuging on an Android phone that you don&amp;rsquo;t own.
 After messing around with &lt;code&gt;Developer options&lt;/code&gt;, you&amp;rsquo;ll want to remove that from
 the &lt;code&gt;Settings&lt;/code&gt; in Android. But how?&lt;/p&gt;
@@ -29,8 +29,11 @@ the &lt;code&gt;Settings&lt;/code&gt; in Android. But how?&lt;/p&gt;
 &lt;li&gt;Done!&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Related link:
-- &lt;a href=&#34;http://www.droidviews.com/how-to-hide-developer-options-on-android-devices/&#34;&gt;http://www.droidviews.com/how-to-hide-developer-options-on-android-devices/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Related link:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.droidviews.com/how-to-hide-developer-options-on-android-devices/&#34;&gt;http://www.droidviews.com/how-to-hide-developer-options-on-android-devices/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
