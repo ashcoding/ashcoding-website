@@ -21,10 +21,13 @@ the &lt;code&gt;Settings&lt;/code&gt; in Android. But how?&lt;/p&gt;
 
 &lt;p&gt;Well, seems like the solution is to &lt;code&gt;Clear data&lt;/code&gt; from the Settings.&lt;/p&gt;
 
-&lt;p&gt;Here&amp;rsquo;s how:
-1. Go to &lt;code&gt;Settings &amp;gt; Apps &amp;gt; Settings&lt;/code&gt;
-2. Press &lt;code&gt;Clear data&lt;/code&gt;
-3. Done!&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s how:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Go to &lt;code&gt;Settings &amp;gt; Apps &amp;gt; Settings&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;Clear data&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Done!&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;Related link:
 - &lt;a href=&#34;http://www.droidviews.com/how-to-hide-developer-options-on-android-devices/&#34;&gt;http://www.droidviews.com/how-to-hide-developer-options-on-android-devices/&lt;/a&gt;&lt;/p&gt;
